@@ -1,0 +1,35 @@
+    #header {
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+        background: black;
+        color: white;
+    }
+    
+    #image {
+        height: 150px;
+        width: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    
+    #name {
+        letter-spacing: 0.5em;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    #about {
+        background: #cdcdcf;
+        padding: 10px;
+    }
+    
+    #work {
+        margin-left: 20px;
+        padding: 10px;
+    }
+    
+    #brand {
+        margin-left: 80px;
+        padding: 10px;
+    }
