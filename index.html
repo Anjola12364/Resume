@@ -1,124 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- Lastest compiled JavaScript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="resume.css">
+</head>
 
-    <head>
-        <title>Resume</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <!-- Lastest compiled JavaScript-->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="resume.css">
-    </head>
-
-    <body>
-        <div class="col-md-offset-2 col-md-8" style="background: #e4e5e9;" id="wrapper">
-            <div id="header">
-                <div>
-                    <img src="anjola.png" id="image">
-                </div>
-                <div>
-                    <h2 id="name">Anjola Adekunle</h2>
-                    <p id="underline"></p>
-                    <h5 id="web">UI/UX Design and Frontend Developer</h5>
-                </div>
+<body>
+    <div class="col-md-offset-2 col-md-8" style="background: #e4e5e9;" id="wrapper">
+        <div id="header">
+            <div>
+                <img src="anjola.png" id="image">
             </div>
-            </section>
-            <main>
-                <!------------------- ABOUT SECTION -------------------------->
-                <section class="about">
-                    <div class="col-md-12">
-                        <h4>ABOUT</h4>
-                        <p class="line-height">Anjola Adekunle is a UI/UX Designer in which solving problem for the user and making sure they are comfortable with what they see. I also design Logo for different businesses. I'm also a frontend developer.
-                        </p>
-                    </div>
-                </section>
-
-                <!------------------- WORK SECTION -------------------------->
-                <section class="work">
-                    <div class="col-md-12">
-                        <h4>WORK</h4>
-                        <div class="work-experience-container">
-                            <div class="work-experience">
-                                <div class="work-details">
-                                    <h5 class="work-role section-sub-title">Frontend Developer</h5>
-                                    <h4 class="work-place section-mini-title">manuviee</h4>
-                                    <ul class="work-description line-height">
-                                        <li>Created front end of web apps as specified in their UI design, paying strict attention to details.</li>
-                                        <li>Single handedly rebuilt the company’s web app to achtwieve mobile-first responsiveness and Search engine optimisation by utilizing semantic markup, media queries, bootstrap and javascript.</li>
-                                        <li>Ensured the scalability of a client’s business web application by integrating vue.js, axios and vuex to the formerly vanilla javascript based web app.</li>
-                                        <li>Collaborated with business owners to recommend, implement and deploy front end designs, tailored to suit their business needs.</li>
-                                    </ul>
-                                </div>
-                                <div class="work-period">
-                                    <p>JULY 2020 - 2021</p>
-                                </div>
-                            </div>
-
-                            <div class="work-experience">
-                                <div class="work-details">
-                                    <h3 class="work-role section-sub-title">product designer</h3>
-                                    <h4 class="work-place section-mini-title">Zuri.internship program</h4>
-                                    <ul class="work-description line-height">
-                                        <li>collaboration of team.</li>
-                                        <li>Design a web app project</li>
-                                    </ul>
-                                </div>
-                                <div class="work-period">
-                                    <p>JULY 2019 - JANUARY 2020</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!------------------- WORK SECTION -------------------------->
-                <section class="about">
-                    <div class="col-md-12">
-                        <h4 style="margin-right: 6.8vw;">EDUCATION</h4>
-                        <div style="">
-                            <h5 class="section-sub-title">MATHEMATICS</h5>
-                            <h4 class="section-mini-title">Federal university of agriculture, abeokuta.</h4>
-                            <small>2021-2024</small>
-                        </div>
-                    </div>
-                </section>
-
-                <!--    <section class="work">
-        <div class="section-container">
-          <h3>EDUCATION</h3>
-          <div class="work-experience-container">
-            <div class="work-experience">
-              <div class="work-details">
-                <h3 class="work-role section-sub-title">Mathematics</h3>
-                <h4 class="work-place section-mini-title">Federal university of agriculture, abeokuta.</h4>
-              </div>
-              <div class="work-period">
-                <p>No work period</p>
-              </div>
+            <div>
+                <h2 id="name">Anjola Adekunle</h2>
+                <p id="underline"></p>
+                <h5 id="web">UI/UX Design and Frontend Developer</h5>
             </div>
-          </div>
         </div>
-      </section> -->
-                <section class="brands">
-                    <div class="col-md-6">
-                        <h4 class="section-sub-title">Amazing brands I have worked with</h4>
-                        <div class="brand-container">
-                            <a href="https://ingressive.org/" target="_blank"><img src="./assets/i4gg.png" alt="hotles.ng logo"></a>
-                            <a href="https://hng.tech/" target="_blank"><img src="./assets/hng.png" alt="HNG internship logo"></a>
-                            <a href="https://zuri.team/" target="_blank"><img src="./assets/zuri.svg" alt="zuri.internship logo"></a>
+        <!-- end.header -->
+        <div class="row">
+            <div class="col-md-12">
+                <h4 id="exp">EXPERIENCE</h4>
+                <div id="experience">
+                    <div id="exp1">
+                        <div>
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 
+                               438.536;" xml:space="preserve">
+	                        <path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+		                    C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+		                    h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+		                    C438.532,59.576,430.49,40.204,414.41,24.123z"/>
                         </div>
-                </section>
-            </main>
-            <footer>
-                <a href="adekdebby67@gmail.com">adekdebby67@gmail.com</a>
-                <p>09039476798</p>
-                <div class="social-links">
-                    <a href="https://twitter.com/adekunle_anjola?s=09"><img src="./assets/twitter-brands.svg" alt="twitter handle" class="social-handles"></a>
-                    <a href="https://github.com/Anjola12364"><img src="./assets/github-brands.svg" alt="github handle" class="social-handles"></a>
-                    <a href="https://linkedin.com/in/anjola-adekunle-254937213"><img src="./assets/linkedin-in-brands.svg" alt="twitter handle" class="social-handles"></a>
+                        <div>
+                            <span id="head">Frontend Developer</span>
+                            <p>2020-2021</p>
+                        </div>
+                        <div>
+                          <h4 id="ent">frontend Developer</h4>
+                          <p>Created front end of web apps as specified in their UI design, paying strict attention to details.
+                            Collaborated with business owners to recommend, implement and deploy front end designs, tailored to suit their business needs.</p>
+                          </div>
+                    </div> <!--end section 1 -->
+                    <div id="exp1">
+                        <div>
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 
+                               438.536;" xml:space="preserve">
+	                        <path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+		                    C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+		                    h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+		                    C438.532,59.576,430.49,40.204,414.41,24.123z"/>
+                        </div>
+                        <div>
+                            <span id="head">Junior UI/UX Designer</span>
+                            <p>2020-2021</p>
+                        </div>
+                        <div>
+                          <h4 id="ent">internship program</h4>
+                          <p>Design a web app project (Lodgemate).
+                            Collaboration with Teammates.
+                            User Interaction.Effective and collaborative with
+                            strong problem-solving talents</p>
+                          </div>
+                    </div> <!--end section 1 -->
+                    <div id="exp1">
+                        <div>
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 
+                               438.536;" xml:space="preserve">
+	                        <path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+		                    C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+		                    h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+		                    C438.532,59.576,430.49,40.204,414.41,24.123z"/>
+                        </div>
+                        <div>
+                            <span id="head">Product Designer</span>
+                            <p>2020-2021</p>
+                        </div>
+                        <div>
+                          <h4 id="ent">Sidehustle internship</h4>
+                          <p>Collaboration of teammate Design an exercise website (Befitting) Interaction with user Collaborative with strong problem-solving.Prepared detailed reports
+                            consistent problem-solver skilled at prioritizing and managing projects
+                            with proficiency</p>
+                          </div>
+                    </div> <!--end section 1 -->
                 </div>
-            </footer>
-    </body>
+            </div>
+        </div> <!-- end row 1-->
+        <div class="row">
+            <div class="col-md-12">
+                <h4 id="exp">EDUCATION</h4>
+                <div id="experience">
+                    <div id="exp1">
+                        <div>
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 
+                               438.536;" xml:space="preserve">
+	                        <path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+		                    C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+		                    h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+		                    C438.532,59.576,430.49,40.204,414.41,24.123z"/>
+                        </div>
+                        <div>
+                            <span id="head">Federal university of 
+                                agriculture, abeokuta</span>
+                            <p>2021-2024</p>
+                        </div>
+                        <div>
+                          <h4 id="ent">Computer science</h4>
+                          <p>Created front end of web apps as specified in their UI design, paying strict attention to details.
+                            Collaborated with business owners to recommend, implement and deploy front end designs, tailored to suit their business needs.</p>
+                          </div>
+                    </div> <!--end section 1 -->
+                    <div id="exp1">
+                        <div>
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 
+                               438.536;" xml:space="preserve">
+	                        <path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+		                    C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+		                    h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+		                    C438.532,59.576,430.49,40.204,414.41,24.123z"/>
+                        </div>
+                        <div>
+                            <span id="head">KodeCamp intern</span>
+                            <p>2021-2021</p>
+                        </div>
+                        <div>
+                          <h4 id="ent">frontend Developer</h4>
+                          <p>Created front end of web apps as specified in their UI design, paying strict attention to details.
+                            Collaborated with business owners to recommend, implement and deploy front end designs, tailored to suit their business needs.</p>
+                          </div>
+                    </div> <!--end section 1 -->
+                </div>
+            </div>
+        </div> <!-- end row 1-->
+        <div class="row">
+            <div class="col-md-5">
+                 <h4 id="contact">CONTACTS</h4>
+            <div class="topM">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 384 384" style="enable-background:new 0 0 384 384;" xml:space="preserve">
+		<path d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594
+			c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
+			c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.813C13.823,0,0,13.823,0,30.813
+			C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z"
+			/>
+            <span id="space"><a href="#">09039476798</a></span>
+            </div>
+            <div class="topM">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+			<path d="M10.688,95.156C80.958,154.667,204.26,259.365,240.5,292.01c4.865,4.406,10.083,6.646,15.5,6.646
+				c5.406,0,10.615-2.219,15.469-6.604c36.271-32.677,159.573-137.385,229.844-196.896c4.375-3.698,5.042-10.198,1.5-14.719
+				C494.625,69.99,482.417,64,469.333,64H42.667c-13.083,0-25.292,5.99-33.479,16.438C5.646,84.958,6.313,91.458,10.688,95.156z"/>
+			<path d="M505.813,127.406c-3.781-1.76-8.229-1.146-11.375,1.542C416.51,195.01,317.052,279.688,285.76,307.885
+				c-17.563,15.854-41.938,15.854-59.542-0.021c-33.354-30.052-145.042-125-208.656-178.917c-3.167-2.688-7.625-3.281-11.375-1.542
+				C2.417,129.156,0,132.927,0,137.083v268.25C0,428.865,19.135,448,42.667,448h426.667C492.865,448,512,428.865,512,405.333
+				v-268.25C512,132.927,509.583,129.146,505.813,127.406z"/>
+                <span id="space"><a href="#">adekdebby67@gmail.com</a></span>
+            </div>
+            <div class="topM">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+		<path d="M256,0C161.896,0,85.333,76.563,85.333,170.667c0,28.25,7.063,56.26,20.49,81.104L246.667,506.5
+			c1.875,3.396,5.448,5.5,9.333,5.5s7.458-2.104,9.333-5.5l140.896-254.813c13.375-24.76,20.438-52.771,20.438-81.021
+			C426.667,76.563,350.104,0,256,0z M256,256c-47.052,0-85.333-38.281-85.333-85.333c0-47.052,38.281-85.333,85.333-85.333
+			s85.333,38.281,85.333,85.333C341.333,217.719,303.052,256,256,256z"/>
+            <span id="space"><a href="#">7,shaba ore-ofe close,abule egba,lagos.</a></span>
+            </div>
+        </div>
+        <div class="col-md-7">
+                <h4 id="skills">SKILLS</h4>
+                <div class="skills">
+                 <div>
+                     <div id="ui">
+                         <p>UI/UX</p>
+                         <div id="progress-bar">
+                              <div id="progress"></div>
+                          </div>
+                     </div>
+                     <div id="ui">
+                        <p>HTML</p>
+                        <div id="progress-bar">
+                             <div id="progress"></div>
+                         </div>
+                    </div>
+                    <div id="ui">
+                        <p>FIGMA</p>
+                        <div id="progress-bar">
+                             <div id="progress"></div>
+                         </div>
+                      </div>
+                 </div>
+                </div>
+                <div id="ui">
+                    <p>CSS</p>
+                    <div id="progress-bar">
+                         <div id="progress"></div>
+                     </div>
+                  </div>
+                  <div id="ui">
+                    <p>ADOBE XD</p>
+                    <div id="progress-bar">
+                         <div id="progress"></div>
+                     </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
 
 </html>
